@@ -1,0 +1,17 @@
+footer ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+footer li {
+    list-style-type: none;
+}
+
+
+footer img {
+    width: 50%;
+}

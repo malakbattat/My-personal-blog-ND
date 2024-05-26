@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(226, 226, 226);
+}
+
+
+.container {
+    border-radius: 5px;
+    background-color: #bce43b;
+    padding: 20px;
+}
+
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+
+input[type=submit] {
+    background-color: #a86d0d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: #687108;
+}
+
+
+@media(min-width:700px) {
+    .container {
+        border-radius: 5px;
+        background-color: #bce43b;
+        padding: 20px;
+        width: 500px;
+        margin-left: 350px;
+    }
+
+}

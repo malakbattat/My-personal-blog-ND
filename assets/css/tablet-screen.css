@@ -1,0 +1,81 @@
+@media(min-width:601px) and (max-width:1000px) {
+    .container {
+        display: grid;
+        grid-template-columns: 200px 300px;
+        grid-template-rows: 250px 600px;
+        grid-template-areas:
+            "header header  "
+            "nav main"
+            "nav main"
+            "footer footer";
+        border: 2px solid;
+    }
+
+
+    .card {
+        margin: 10px;
+    }
+
+
+
+    div #c3 {
+        color: black;
+        background-color: rgb(246, 201, 142);
+        border-radius: 20px;
+        padding: 10px;
+    }
+
+
+    div #c3 img {
+        width: 100%;
+        border-radius: 6px;
+    }
+
+
+    div #c3 button {
+        border-radius: 6px;
+        background-color: rgb(242, 170, 76);
+        font-size: larger;
+    }
+
+
+
+    nav a {
+        color: rgb(189, 141, 20);
+    }
+
+
+    nav button {
+        font-size: x-large;
+        font-weight: 710;
+        border-radius: 5px;
+        color: rgb(126, 94, 13);
+    }
+
+
+    button:hover {
+        cursor: pointer;
+    }
+
+
+    .card button {
+        color: rgb(139, 21, 21);
+    }
+
+
+    footer ul {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+    footer img {
+        width: 50%;
+    }
+
+
+
+}
+
